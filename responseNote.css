@@ -1,0 +1,84 @@
+  @media (max-width: 1367px) {
+    /* HEADER */
+    .header {
+      height: 80px;
+    }
+
+    .logo img {
+      height: 80px;
+    }
+
+    .navbar a {
+      font-size: 1rem;
+    }
+
+    /* MAIN */
+    .text-main h1 {
+      font-size: 3rem;
+    }
+    .text-main a {
+      padding: 0.8rem 2rem;
+      font-size: 0.9rem;
+      margin-top: 2rem;
+    }
+
+    /* PRODUCT */
+    #produtos {
+      scroll-margin-top: 6.6rem;
+    }
+    .content-produtos {
+      padding: 0 1rem;
+    }
+
+    .content-produtos h2 {
+      font-size: 2.4rem;
+    }
+
+    .content-produtos p {
+      font-size: 1.4rem;
+    }
+
+    /* PRODUCT - GRID */
+    .card-produtos {
+      grid-template-columns: repeat(3, auto);
+    }
+
+    .card {
+      padding: 1rem;
+    }
+
+    .card img {
+      height: 6rem;
+    }
+
+    .card h3 {
+      font-size: 1rem;
+    }
+
+    /* PREÇO */
+    .preco {
+      font-size: 1rem;
+    }
+
+    /* BUTTONS */
+    .button-adicionar {
+      padding: 0.4rem 1.4rem;
+      font-size: 0.9rem;
+    }
+
+    .button-promo {
+      padding: 0.4rem 1.4rem;
+      font-size: 0.9rem;
+    }
+
+    /* FOOTER */
+    .contato {
+      padding: 0.2rem 5%;
+    }
+
+    .contato_footer p{
+      font-size: 0.8rem;
+      line-height: 1.2rem;
+    }
+
+}
