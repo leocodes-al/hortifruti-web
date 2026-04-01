@@ -8,10 +8,9 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet"/>
+
+    <link rel="stylesheet" href="style.css">
   </head>
 
   <body>
@@ -19,7 +18,7 @@
     <header class="header">
       <div class="container">
         <a href="#" class="logo">
-          <img src="./img/" alt="Logo HortiFruti Web" />
+          <img src="./img/logo.png" alt="Logo HortiFruti Web" />
         </a>
 
         <nav class="navbar">
@@ -53,61 +52,63 @@
     <main class="main">
       <section id="inicio">
         <div class="text-main">
-          <h1>Frescor da horta direto para sua casa.</h1>
-          <a class="button-comprar" href="#produtos">Comprar Agora</a>
+          <h1>Frescor da horta direto<br> para sua casa.</h1>
+          <a href="#produtos">Comprar Agora</a>
         </div>
       </section>
     </main>
 
     <!-- PRODUCT -->
-    <section class="produtos" id="produtos">
+    <section id="produtos">
       <div class="content-produtos">
 
-        <h2>Os melhores produtos da feira estão aqui!</h2>
-        <p>Conheça nossas opções fresquinhas e saudáveis</p>
+        <div class="text-produtos">
+          <h2>Os melhores produtos da feira estão aqui!</h2>
+          <p>Conheça nossas opções fresquinhas e saudáveis</p>
+        </div>
 
         <div class="card-produtos">
 
           <div class="card">
-            <img src="./img/" alt="Melancia em Promoção" />
+            <img src="./img/melancia.png" alt="Melancia em Promoção" />
             <h3 class="nome-produto">Melancia</h3>
-            <div class="preco_promo">
-              <span class="preco-novo">R$ 14,99</span>
+            <div>
+              <span class="preco-promo">R$ 14,99</span>
               <span class="preco-antigo">R$ 19,99</span>
             </div>
             <button class="button-promo">Adicionar</button>
           </div>
 
           <div class="card">
-            <img src="./img/" alt="Abacate" />
+            <img src="./img/abacate.png" alt="Abacate" />
             <h3 class="nome-produto">Abacate</h3>
             <div class="preco">R$ 2,50 und</div>
             <button class="button-adicionar">Adicionar</button>
           </div>
 
           <div class="card">
-            <img src="./img/" alt="Alface" />
+            <img src="./img/alface.png" alt="Alface" />
             <h3 class="nome-produto">Alface</h3>
             <div class="preco">R$ 3,50 und</div>
             <button class="button-adicionar">Adicionar</button>
           </div>
 
           <div class="card">
-            <img src="./img/" alt="Banana" />
+            <img src="./img/banana.png" alt="Banana" />
             <h3 class="nome-produto">Banana</h3>
             <div class="preco">R$ 9,50 dúzia</div>
             <button class="button-adicionar">Adicionar</button>
           </div>
 
           <div class="card">
-            <img src="./img/" alt="Maça" />
+            <img src="./img/maça.png" alt="Maça" />
             <h3 class="nome-produto">Maça</h3>
             <div class="preco">R$ 1,99 und</div>
             <button class="button-adicionar">Adicionar</button>
           </div>
 
           <div class="card">
-            <img src="./img/" alt="Batatinha" />
+            <img src="./img/batatinha.png" alt="Batatinha" />
             <h3 class="nome-produto">Batatinha</h3>
             <div class="preco">R$ 12,90 kg</div>
             <button class="button-adicionar">Adicionar</button>
@@ -122,7 +123,7 @@
       <div class="contato">
 
         <div class="logo_footer">
-          <img src="./img/" alt="Logo HortiFruti Web" />
+          <img src="./img/logo.png" alt="Logo HortiFruti Web" />
         </div>
 
         <div class="contato_footer">
@@ -131,12 +132,12 @@
           <p>Endereço: Rua...</p>
         </div>
 
-        <div class="contato_redesociais">
+        <div class="contato_icons">
           <a href="#">
-            <img src="./img/" alt="Instagram" />
+            <img src="./img/instagram.png" alt="Instagram" />
           </a>
           <a href="#">
-            <img src="./img/" alt="Whatsapp" />
+            <img src="./img/whatsapp.png" alt="Whatsapp" />
           </a>
         </div>
 
@@ -148,7 +149,7 @@
     </footer>
 
     <div id="toast" class="toast">Produto adicionado ao carrinho</div>
+
     <script src="script.js"></script>
-    
   </body>
 </html>
