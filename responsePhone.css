@@ -3,11 +3,11 @@
   /* HEADER - NAV */
   .header {
     background-image: url("./img/fundo_header_mobile.png");
-    height: 100px;
+    height: 70px;
   }
 
   .logo img {
-    height: 80px;
+    height: 70px;
   }
 
   .navbar a {
