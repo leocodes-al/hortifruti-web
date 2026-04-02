@@ -24,7 +24,7 @@
 
     /* PRODUCT */
     #produtos {
-      scroll-margin-top: 6.6rem;
+      scroll-margin-top: 5rem;
     }
     .content-produtos {
       padding: 0 1rem;
@@ -56,8 +56,20 @@
     }
 
     /* PREÇO */
-    .preco {
+    .preco-promo {
       font-size: 1rem;
+    }
+
+    .preco-antigo {
+      font-size: 0.8rem;
+    }
+
+    .valor {
+      font-size: 1rem;
+    }
+
+    .unidade {
+      font-size: 0.8rem;
     }
 
     /* BUTTONS */

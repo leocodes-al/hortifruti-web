@@ -13,7 +13,7 @@
 .container {
   max-width: 1200px;
   width: 100%;
-  padding: 0 2rem; /* só horizontal */
+  padding: 0 2rem;
   margin: 0 auto;
 
   display: flex;
@@ -29,7 +29,7 @@
   left: 0;
   right: 0;
   z-index: 99;
-  background: url("./img/fundo_header.png");
+  background-image: url("./img/fundo_header.png");
   background-position: center;
   background-size: cover;
 }
@@ -65,7 +65,7 @@
 }
 
 .main {
-  background: url("./img/fundo_slogan.png");
+  background-image: url("./img/fundo_slogan.png");
   background-position: center;
   background-size: cover;
   display: flex;
@@ -105,7 +105,7 @@
 /* PRODUCT */
 #produtos {
   scroll-margin-top: 7.4rem;
-  background: url("./img/fundo_promo.png");
+  background-image: url("./img/fundo_promo.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -161,12 +161,6 @@
 }
 
 /* PRODUCT - PREÇOS */
-.preco {
-  color: white;
-  font-size: 1.2rem;
-  font-weight: bold;
-}
-
 .preco-promo {
   color: #FFB300;
   font-size: 1.2rem;
@@ -178,6 +172,17 @@
   text-decoration: line-through;
   color: #999;
   margin-left: 8px;
+}
+
+.valor {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.unidade {
+  font-size: 1rem;
+  color: #aaa;
 }
 
 /* BUTTONS */
@@ -223,7 +228,7 @@
 
 /* FOOTER */
 .contato {
-  background: url("./img/footer_2.png");
+  background-image: url("./img/footer_2.png");
   background-position: center;
   background-size: cover;
 
@@ -247,16 +252,20 @@
 }
 
 .contato_icons img {
-  width: 35px;
+  width: 2.4rem;
   height: auto;
   margin-right: 1.5rem;
 }
 
 .footer_copy {
   width: 100%;
-  text-align: center;
+}
+
+.footer_copy p {
+  margin-top: 0.5rem;
   color: white;
-  padding-top: 1rem;
+  text-align: center;
+  font-size: 0.8rem;
 }
 
 /* TOAST */

@@ -8,10 +8,15 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet"/>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="responseNote.css">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responseNote.css" />
+    <link rel="stylesheet" href="responsePhone.css" />
+
   </head>
 
   <body>
@@ -33,14 +38,6 @@
             <img
               width="25"
               height="25"
-              src="https://img.icons8.com/ios-filled/50/search--v1.png"
-              alt="buscar"
-            />
-          </button>
-          <button>
-            <img
-              width="25"
-              height="25"
               src="https://img.icons8.com/ios-glyphs/30/shopping-cart--v1.png"
               alt="abrir carrinho"
             />
@@ -53,7 +50,10 @@
     <main class="main">
       <section id="inicio">
         <div class="text-main">
-          <h1>Frescor da horta direto<br> para sua casa.</h1>
+          <h1>
+            Frescor da horta direto<br />
+            para sua casa.
+          </h1>
           <a href="#produtos">Comprar Agora</a>
         </div>
       </section>
@@ -62,20 +62,19 @@
     <!-- PRODUCT -->
     <section id="produtos">
       <div class="content-produtos">
-
         <div class="text-produtos">
           <h2>Os melhores produtos da feira estão aqui!</h2>
           <p>Conheça nossas opções fresquinhas e saudáveis</p>
         </div>
 
         <div class="card-produtos">
-
           <div class="card">
             <img src="./img/melancia.png" alt="Melancia em Promoção" />
             <h3 class="nome-produto">Melancia</h3>
             <div>
-              <span class="preco-promo">R$ 14,99</span>
               <span class="preco-antigo">R$ 19,99</span>
+              <span class="preco-promo"><br>R$ 14,99</span>
+              <span class="unidade">und</span>
             </div>
             <button class="button-promo">Adicionar</button>
           </div>
@@ -83,38 +82,52 @@
           <div class="card">
             <img src="./img/abacate.png" alt="Abacate" />
             <h3 class="nome-produto">Abacate</h3>
-            <div class="preco">R$ 2,50 und</div>
+            <div class="preco">
+              <span class="valor">R$ 2,50</span>
+              <span class="unidade">und</span>
+            </div>
             <button class="button-adicionar">Adicionar</button>
           </div>
 
           <div class="card">
             <img src="./img/alface.png" alt="Alface" />
             <h3 class="nome-produto">Alface</h3>
-            <div class="preco">R$ 3,50 und</div>
+            <div class="preco">
+              <span class="valor">R$ 2,50</span>
+              <span class="unidade">und</span>
+            </div>
             <button class="button-adicionar">Adicionar</button>
           </div>
 
           <div class="card">
             <img src="./img/banana.png" alt="Banana" />
             <h3 class="nome-produto">Banana</h3>
-            <div class="preco">R$ 9,50 dúzia</div>
+            <div class="preco">
+              <span class="valor">R$ 2,50</span>
+              <span class="unidade">und</span>
+            </div>
             <button class="button-adicionar">Adicionar</button>
           </div>
 
           <div class="card">
             <img src="./img/maça.png" alt="Maça" />
             <h3 class="nome-produto">Maça</h3>
-            <div class="preco">R$ 1,99 und</div>
+            <div class="preco">
+              <span class="valor">R$ 2,50</span>
+              <span class="unidade">und</span>
+            </div>
             <button class="button-adicionar">Adicionar</button>
           </div>
 
           <div class="card">
             <img src="./img/batatinha.png" alt="Batatinha" />
             <h3 class="nome-produto">Batatinha</h3>
-            <div class="preco">R$ 12,90 kg</div>
+            <div class="preco">
+              <span class="valor">R$ 2,50</span>
+              <span class="unidade">und</span>
+            </div>
             <button class="button-adicionar">Adicionar</button>
           </div>
-
         </div>
       </div>
     </section>
@@ -122,7 +135,6 @@
     <!-- FOOTER -->
     <footer id="contato">
       <div class="contato">
-
         <div class="logo_footer">
           <img src="./img/logo.png" alt="Logo HortiFruti Web" />
         </div>
@@ -145,7 +157,6 @@
         <div class="footer_copy">
           <p>© 2026 Hortifruti Web. Desenvolvido por Leonardo Nascimento.</p>
         </div>
-
       </div>
     </footer>
 
