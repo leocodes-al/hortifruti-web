@@ -1,0 +1,57 @@
+@media (max-width: 1367px) {
+  /* HEADER */
+  .header {
+    height: 6rem;
+  }
+
+  .header h1 {
+    font-size: 1.5rem;
+  }
+
+  .logo {
+    height: 6rem;
+  }
+
+  /* CONTAINER PRINCIPAL */
+  .formulario {
+    max-width: 700px;
+    margin: 1rem auto;
+
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .formulario h2 {
+    font-size: 1.2rem;
+  }
+
+  input, select {
+    padding: 0.6rem 0.8rem;        
+    margin-bottom: 0.8rem;                
+    font-size: 0.8rem;              
+  }
+
+  /* RESUMO DO PEDIDO */
+  .resumo-pedido {
+    max-width: 700px;
+    margin: 1rem auto;
+  }
+
+  .resumo-pedido h2 {
+    font-size: 1.2rem;
+  }
+
+  .resumo-pedido p {
+    font-size: 1rem;
+  }
+
+  button {
+    padding: 0.8rem;
+    font-size: 0.8rem;
+  }
+
+  /* BUTTON REMOVER */
+  #lista-carrinho button {
+    font-size: 0.6rem;
+  }
+}

@@ -7,14 +7,14 @@
 
 body {
     background-image: url("./img/fundo_promo.png");
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
 }
 
 /* HEADER */
 .header {
-  height: 10rem;
+  height: 8rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,9 +24,12 @@ body {
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
-.logo {
-  height: 8rem;
+.header h1 {
+  font-size: 1.8rem;
+}
 
+.logo {
+  height: 7rem;
 }
 
 /* CONTAINER PRINCIPAL */
@@ -45,7 +48,7 @@ body {
 }
 
 .formulario h2 {
-  font-size: 2rem;
+  font-size: 1.6rem;
 }
 
 input, select {
@@ -76,11 +79,11 @@ input, select {
 }
 
 .resumo-pedido h2 {
-  font-size: 2rem;
+  font-size: 1.6rem;
 }
 
 .resumo-pedido p {
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin: 1rem 0;
 }
 
