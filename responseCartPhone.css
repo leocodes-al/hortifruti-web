@@ -4,6 +4,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    min-height: 100vh;
   }
 
   /* HEADER */
@@ -25,7 +26,7 @@
   }
 
   .formulario h2 {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 
   input, select {
@@ -40,11 +41,11 @@
   }
 
   .resumo-pedido h2 {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 
-  .resumo-pedido p {
-    font-size: 0.6rem;
+  #total-carrinho {
+    font-size: 0.8rem;
     margin: 0.6rem 0;
   }
 
@@ -59,6 +60,10 @@
   }
 
   /* BUTTON REMOVER */
+  #lista-carrinho {
+      font-size: 0.8rem;
+    }
+
   #lista-carrinho button {
     font-size: 0.4rem;
   }
