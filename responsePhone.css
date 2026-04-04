@@ -129,4 +129,10 @@
   .footer_copy p {
     font-size: 0.5rem;
   }
+
+  /* TOAST */
+  .toast {
+    padding: 0.4rem 0.8rem;
+   font-size: 0.4rem;
+  }
 }
